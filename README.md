@@ -1,6 +1,6 @@
-# Elasticsearch, Logstash and Kibana 6.8.1
+# Elasticsearch, Logstash and Kibana 7.2.0
 
-This is a small container at only 300Mb compressed, running a full functional ELK 6 stack.
+This is a small container at only 300Mb compressed, running a full functional ELK 7 stack.
 
 ## Important
 
@@ -38,7 +38,7 @@ Start the container
 docker run -d -p 5601:5601 -p 9200:9200 -p 5044:5044 \
   -v /var/lib/elasticsearch:/var/lib/elasticsearch \
   --name elk \
-  cdrocker/elk6:latest
+  cdrocker/elk7
 ```
 
 Check progress with
