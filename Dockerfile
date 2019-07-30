@@ -1,5 +1,5 @@
 # required for full openssl support
-FROM anapsix/alpine-java:latest
+FROM alpine:latest
 
 # changeables
 ENV VERSION=7.2.0
